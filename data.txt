@@ -1,0 +1,22 @@
+ДАННЫЕ АРТУРА 
+developerToken = "xqBay6WRSg4EikDA-naSFA"
+userAgent = "Unimed"
+clientCustomerId = "483-750-9317"
+client_id = "318129135847-64s2l6m3e3181d9cjtshnfjvf82q5u9c.apps.googleusercontent.com"
+client_secret = "HmyfkDkV6HzA-dyggiofb7pG"
+refresh_token = "1/DvG-dPzWDhKF_1LbiVpdFRtktnBrSS2lZ5fA0hgDn7M"
+
+ДАННЫЕ ТЕСТОВОГО АККАУНТА test1
+developerToken = "xqBay6WRSg4EikDA-naSFA"
+userAgent = "Unimed"
+clientCustomerId = "483-750-9317"
+client_id = "598035589510-ttm04no2ke2sdjnar2g7md6a3e43mjfg.apps.googleusercontent.com"
+client_secret = "xJgjQas0jOk_APmt70rOoonI"
+refresh_token = "1/vr0FvZRadJ1wsZ0UThh_yv4Bu7WrGOsujgON9NhTmz0"
+
+ДАННЫЕ ТЕСТОВОГО КОТОРЫЙ ПРИВЯЗАН К АРТУРУ
+
+client_id: ""
+client_secret: ""
+refresh_token: "1/AevLqAHKoywGUvcqyHuTzAdejZcwbp9z_GGYJ2szxUQ"
+

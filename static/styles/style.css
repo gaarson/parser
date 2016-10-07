@@ -1,0 +1,37 @@
+.parse_form {
+	position: absolute;
+	left: -30px
+}
+
+.tabs {
+	position: relative;
+}
+
+.info_ul {
+	list-style: none;
+	display: list-item;
+}
+
+.info_ul li {
+	position: relative;
+	display: inline-block;
+	padding: 5.6% 100px;
+	cursor: pointer;
+	background-color: #fff;
+	color: #dcd9c8;
+	transition: 0.3s;
+}
+
+.info_ul li:hover {
+	background-color: #000;
+	transition: 1.3s;
+}
+
+.info_ul li.focused {
+	color: #fff;
+	background-color: #000;
+}
+
+.parse_data {
+
+}

@@ -1,0 +1,14 @@
+body {
+	
+}
+.rush_data {
+	position: absolute;
+	left: 25%;
+}
+
+tbody { 
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: #000;
+	border-top: 1px solid #ccc;
+}

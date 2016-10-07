@@ -1,0 +1,32 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "prsr",
+  "main": "index.html",
+  "scripts": {
+    "nodemon": "NODE_PATH=./server nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rus",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "express": "^4.13.4",
+    "node-adwords": "^201607.0.1",
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "amcharts3": "github:amcharts/amcharts3",
+    "d3": "^4.2.6",
+    "fetch": "^1.1.0",
+    "jsdom": "^9.6.0",
+    "json-loader": "^0.5.4",
+    "phantom": "^2.1.21",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
