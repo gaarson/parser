@@ -14,7 +14,8 @@ export default class App extends React.Component {
 					<link rel = "stylesheet" href = "./../static/styles/style.css"	/>
 				</head>
 				<body>
-					<ParseForm items = {['Rush Analitics', 'Metrika']}/>
+					<ParseForm items = {['Yandex Metrika']}/>
+					<canvas id = "chart-block" width = "400" height = "200" />
 					<script src = "./../static/bundle.js" />
 				</body>
 			</html>

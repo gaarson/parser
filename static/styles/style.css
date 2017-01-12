@@ -1,10 +1,13 @@
-.parse_form {
-	position: absolute;
-	left: -30px
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+  font-size: 15px;
 }
 
 .tabs {
-	position: relative;
+	position: inline-flex;
+	left: 25%;
 }
 
 .info_ul {
@@ -14,8 +17,8 @@
 
 .info_ul li {
 	position: relative;
-	display: inline-block;
-	padding: 5.6% 100px;
+	display: inline-flex;
+	padding: 50px 120px;
 	cursor: pointer;
 	background-color: #fff;
 	color: #dcd9c8;
@@ -32,6 +35,14 @@
 	background-color: #000;
 }
 
-.parse_data {
-
+.parsing_data {
+	position: relative;
+	left: 20%;
 }
+
+#chart-block {
+	display: block;
+	width: 400px;
+	height: 400px;
+}
+

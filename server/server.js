@@ -10,6 +10,7 @@ app.use('/static', express.static(path.join(__dirname, './../static')));
 
 app.get('/rushanalit', require('./routes/rush_route.js'));
 app.get('/metrik', require('./routes/metrik_route.js'));
+app.get('/direct', require('./routes/direct_route.js'));
 
 app.get('/', (req, res) => {
 	let html = ReactDomServer.renderToString(<App />);

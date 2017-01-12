@@ -20,13 +20,15 @@
     "nodemon": "^1.10.2"
   },
   "dependencies": {
-    "amcharts3": "github:amcharts/amcharts3",
+    "chart.js": "^2.4.0",
     "d3": "^4.2.6",
-    "fetch": "^1.1.0",
+    "jquery": "^3.1.1",
     "jsdom": "^9.6.0",
     "json-loader": "^0.5.4",
     "phantom": "^2.1.21",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "superagent": "^2.3.0",
+    "yandex-direct-api": "^1.0.4"
   }
 }

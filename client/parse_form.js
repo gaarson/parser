@@ -20,8 +20,8 @@ export default class ParseForm extends React.Component {
 		let usedItem = this.props.items[this.state.focused];
 		let self = this;
 		let dataBlock;
-		if(usedItem == "Metrika") dataBlock = <YandexMetrik />;
-		if(usedItem == "Rush Anal.") dataBlock ;
+		if(usedItem == "Yandex Metrika") dataBlock = <YandexMetrik />;
+		if(usedItem == "Rush Analitics") dataBlock = <RushAnalitics />;
 		return(
 			<div className = "parse_form">
 				<div className = "tabs">
@@ -30,7 +30,7 @@ export default class ParseForm extends React.Component {
 							if(self.state.focused == index){
 							style = "focused";
 						}
-						return <li className={style} onClick={self.clicked.bind(self, index)}><h3>{m}</h3></li>;
+						return ([<li className = {style} id = {index} onClick = {self.clicked.bind(self, index)}><h3>{m}</h3></li>]);
 					})}</ul>
 			</div>
 				<div className = "parsing_data"> 

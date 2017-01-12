@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
 	entry: {
-		js: path.join(__dirname, './server/client.js')
+		js: path.join(__dirname, './server/client.js'),
 	},
 	resolveLoader: { root: path.join(__dirname, 'node_modules') },
 	resolve: {
@@ -15,6 +15,8 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	node: {
+		child_process: 'empty',
+		fs: 'empty',
 		dns: 'empty',
 		net: 'empty',
 		tls: 'empty'
